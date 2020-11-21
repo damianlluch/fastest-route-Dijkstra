@@ -17,23 +17,20 @@ var_dump($travel->getRoute("Logroño","Ciudad Real"));
 ```
 Resultado:
 ```
-array(2) {
-  ["distance"]=>        
-  int(16)
-  ["route"]=>         
-  array(5) {
-    [0]=>                 
-    string(8) "Logroño"
-    [1]=>                   
-    string(8) "Zaragoza"
-    [2]=>
-    string(6) "Lleida"         
-    [3]=>                           
-    string(10) "Castellón"
-    [4]=>
-    string(11) "Ciudad Real"
-  }
-}
+Array
+(
+    [distance] => 16
+    [route] => Array
+        (
+            [0] => Logroño
+            [1] => Zaragoza
+            [2] => Lleida
+            [3] => Castellón
+            [4] => Ciudad Real
+        )
+
+)
+
 
 ```
 **2) Mostrar la distancia más corta desde un origen dado a todos los destinos**
